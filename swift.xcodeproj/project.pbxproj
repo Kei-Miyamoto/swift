@@ -13,6 +13,8 @@
 		05AD87612839135B00E40FAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05AD875F2839135B00E40FAB /* Main.storyboard */; };
 		05AD87632839135D00E40FAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05AD87622839135D00E40FAB /* Assets.xcassets */; };
 		05AD87662839135D00E40FAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05AD87642839135D00E40FAB /* LaunchScreen.storyboard */; };
+		05AD876E283917CB00E40FAB /* QuestionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AD876D283917CB00E40FAB /* QuestionsViewController.swift */; };
+		05AD87702839183300E40FAB /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AD876F2839183300E40FAB /* ScoreViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		05AD87622839135D00E40FAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		05AD87652839135D00E40FAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		05AD87672839135D00E40FAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05AD876D283917CB00E40FAB /* QuestionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsViewController.swift; sourceTree = "<group>"; };
+		05AD876F2839183300E40FAB /* ScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				05AD875B2839135B00E40FAB /* SceneDelegate.swift */,
 				05AD875D2839135B00E40FAB /* ViewController.swift */,
 				05AD875F2839135B00E40FAB /* Main.storyboard */,
+				05AD876F2839183300E40FAB /* ScoreViewController.swift */,
+				05AD876D283917CB00E40FAB /* QuestionsViewController.swift */,
 				05AD87622839135D00E40FAB /* Assets.xcassets */,
 				05AD87642839135D00E40FAB /* LaunchScreen.storyboard */,
 				05AD87672839135D00E40FAB /* Info.plist */,
@@ -140,6 +146,8 @@
 			files = (
 				05AD875E2839135B00E40FAB /* ViewController.swift in Sources */,
 				05AD875A2839135B00E40FAB /* AppDelegate.swift in Sources */,
+				05AD87702839183300E40FAB /* ScoreViewController.swift in Sources */,
+				05AD876E283917CB00E40FAB /* QuestionsViewController.swift in Sources */,
 				05AD875C2839135B00E40FAB /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
