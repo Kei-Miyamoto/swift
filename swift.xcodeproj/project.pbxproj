@@ -15,6 +15,12 @@
 		05AD87662839135D00E40FAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05AD87642839135D00E40FAB /* LaunchScreen.storyboard */; };
 		05AD876E283917CB00E40FAB /* QuestionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AD876D283917CB00E40FAB /* QuestionsViewController.swift */; };
 		05AD87702839183300E40FAB /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AD876F2839183300E40FAB /* ScoreViewController.swift */; };
+		05AD87722839F38A00E40FAB /* other.csv in Resources */ = {isa = PBXBuildFile; fileRef = 05AD87712839F38A00E40FAB /* other.csv */; };
+		05C4BF42288278BF00D5DE98 /* SelectLevelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C4BF41288278BF00D5DE98 /* SelectLevelViewController.swift */; };
+		05C4BF4428828D9500D5DE98 /* season.csv in Resources */ = {isa = PBXBuildFile; fileRef = 05C4BF4328828D9500D5DE98 /* season.csv */; };
+		05C4BF4C2882A09600D5DE98 /* letter.csv in Resources */ = {isa = PBXBuildFile; fileRef = 05C4BF4B2882A09600D5DE98 /* letter.csv */; };
+		05F69CE12869D7AD00C2A725 /* quizgood.png in Resources */ = {isa = PBXBuildFile; fileRef = 05F69CDF2869D7AD00C2A725 /* quizgood.png */; };
+		05F69CE22869D7AD00C2A725 /* quizbad.png in Resources */ = {isa = PBXBuildFile; fileRef = 05F69CE02869D7AD00C2A725 /* quizbad.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +34,12 @@
 		05AD87672839135D00E40FAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		05AD876D283917CB00E40FAB /* QuestionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsViewController.swift; sourceTree = "<group>"; };
 		05AD876F2839183300E40FAB /* ScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
+		05AD87712839F38A00E40FAB /* other.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = other.csv; sourceTree = "<group>"; };
+		05C4BF41288278BF00D5DE98 /* SelectLevelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectLevelViewController.swift; sourceTree = "<group>"; };
+		05C4BF4328828D9500D5DE98 /* season.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = season.csv; sourceTree = "<group>"; };
+		05C4BF4B2882A09600D5DE98 /* letter.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = letter.csv; sourceTree = "<group>"; };
+		05F69CDF2869D7AD00C2A725 /* quizgood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = quizgood.png; sourceTree = "<group>"; };
+		05F69CE02869D7AD00C2A725 /* quizbad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = quizbad.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,13 +76,27 @@
 				05AD875B2839135B00E40FAB /* SceneDelegate.swift */,
 				05AD875D2839135B00E40FAB /* ViewController.swift */,
 				05AD875F2839135B00E40FAB /* Main.storyboard */,
+				05C4BF41288278BF00D5DE98 /* SelectLevelViewController.swift */,
+				05AD87712839F38A00E40FAB /* other.csv */,
+				05C4BF4B2882A09600D5DE98 /* letter.csv */,
+				05C4BF4328828D9500D5DE98 /* season.csv */,
 				05AD876F2839183300E40FAB /* ScoreViewController.swift */,
 				05AD876D283917CB00E40FAB /* QuestionsViewController.swift */,
+				05F69CDE2869D7AD00C2A725 /* image */,
 				05AD87622839135D00E40FAB /* Assets.xcassets */,
 				05AD87642839135D00E40FAB /* LaunchScreen.storyboard */,
 				05AD87672839135D00E40FAB /* Info.plist */,
 			);
 			path = swift;
+			sourceTree = "<group>";
+		};
+		05F69CDE2869D7AD00C2A725 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				05F69CDF2869D7AD00C2A725 /* quizgood.png */,
+				05F69CE02869D7AD00C2A725 /* quizbad.png */,
+			);
+			path = image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,9 +157,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05C4BF4428828D9500D5DE98 /* season.csv in Resources */,
 				05AD87662839135D00E40FAB /* LaunchScreen.storyboard in Resources */,
+				05C4BF4C2882A09600D5DE98 /* letter.csv in Resources */,
+				05F69CE12869D7AD00C2A725 /* quizgood.png in Resources */,
+				05F69CE22869D7AD00C2A725 /* quizbad.png in Resources */,
 				05AD87632839135D00E40FAB /* Assets.xcassets in Resources */,
 				05AD87612839135B00E40FAB /* Main.storyboard in Resources */,
+				05AD87722839F38A00E40FAB /* other.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,6 +180,7 @@
 				05AD87702839183300E40FAB /* ScoreViewController.swift in Sources */,
 				05AD876E283917CB00E40FAB /* QuestionsViewController.swift in Sources */,
 				05AD875C2839135B00E40FAB /* SceneDelegate.swift in Sources */,
+				05C4BF42288278BF00D5DE98 /* SelectLevelViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
