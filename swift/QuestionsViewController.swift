@@ -58,6 +58,7 @@ class QuestionsViewController: UIViewController {
     }
     
     @IBAction func btnAction(sender: UIButton) {
+        //解答ボタン
         if sender.tag == Int(quizArray[1]) {
             print("Good")
             correctCount += 1
